@@ -1,4 +1,4 @@
-# B U X: Expense Tracker App
+# B U X : Expense Tracker App
 
 B U X is an Android application designed to help users manage their personal finances efficiently. 
 The app allows users to track their expenses and income, visualize data with dynamic charts, and customize 
