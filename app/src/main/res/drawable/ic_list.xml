@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Bullet Point 1 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M4,7a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+
+    <!-- Line 1 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M10,6h10v2H10z" />
+
+    <!-- Bullet Point 2 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M4,13a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+
+    <!-- Line 2 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M10,12h10v2H10z" />
+
+    <!-- Bullet Point 3 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M4,19a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+
+    <!-- Line 3 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M10,18h10v2H10z" />
+</vector>

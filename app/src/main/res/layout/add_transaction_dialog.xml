@@ -1,0 +1,83 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- Transaction Type -->
+    <RadioGroup
+        android:id="@+id/radioGroupTransactionType"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioExpense"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Expense" />
+
+        <RadioButton
+            android:id="@+id/radioIncome"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Income" />
+    </RadioGroup>
+
+    <!-- Amount Input -->
+    <EditText
+        android:id="@+id/etTransactionAmount"
+        android:layout_width="318dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Amount"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radioGroupTransactionType" />
+
+    <!-- Category Input -->
+    <EditText
+        android:id="@+id/etTransactionCategory"
+        android:layout_width="318dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Category"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etTransactionAmount" />
+
+    <!-- Save Button -->
+
+    <Button
+        android:id="@+id/btnSaveTransaction"
+        android:layout_width="128dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="84dp"
+        android:backgroundTint="@color/black"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etTransactionCategory" />
+
+    <Button
+        android:id="@+id/btnSelectDate"
+        android:layout_width="318dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/black"
+        android:text="Select Date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

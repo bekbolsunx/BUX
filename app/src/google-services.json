@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "374048148792",
+    "project_id": "bekexpense-999",
+    "storage_bucket": "bekexpense-999.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374048148792:android:1f787f9cfeefda0fd385cd",
+        "android_client_info": {
+          "package_name": "com.example.bekexpense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374048148792-tnfumfbiumkrcfhnge80r2abee3pe60i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bekexpense",
+            "certificate_hash": "220e9c8558e8bbe1cdd794dcb12447c2b786cd8c"
+          }
+        },
+        {
+          "client_id": "374048148792-ia9c01up31gt6estlfpc79d40ff4a16l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbTJdZUgNue0Ajde-oU5JhZmDmE1DiuG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374048148792-ia9c01up31gt6estlfpc79d40ff4a16l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

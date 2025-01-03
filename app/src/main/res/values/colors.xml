@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#4CAF50</color> <!-- Thumb when ON -->
+    <color name="gray">#BDBDBD</color> <!-- Thumb when OFF -->
+    <color name="light_green">#A5D6A7</color> <!-- Track when ON -->
+    <color name="light_black">#99333333</color> <!-- Track when OFF -->
+</resources>

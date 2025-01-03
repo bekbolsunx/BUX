@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">bekExpense</string>
+    <string name="default_web_client_id">374048148792-ia9c01up31gt6estlfpc79d40ff4a16l.apps.googleusercontent.com</string>
+    <string-array name="sort_options">
+            <item>By date</item>
+            <item>By amount</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200"
+    tools:ignore="ExtraText">
+
+    <!-- Outer Circle -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M100,0
+        A100,100 0 1,1 99.99,0
+        Z
+        M100,40
+        A60,60 0 1,0 100,39.99
+        Z" />
+</vector>
