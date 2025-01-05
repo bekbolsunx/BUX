@@ -339,7 +339,10 @@ class HomeActivity : AppCompatActivity() {
 
     private fun generateRandomColor(): Int {
         val random = Random()
-        return Color.rgb(random.nextInt(256), random.nextInt(256), random.nextInt(256))
+        val red = 200 + random.nextInt(56) // Generate red value between 200 and 255
+        val green = 200 + random.nextInt(56) // Generate green value between 200 and 255
+        val blue = 200 + random.nextInt(56) // Generate blue value between 200 and 255
+        return Color.rgb(red, green, blue)
     }
 
 
@@ -453,7 +456,6 @@ class HomeActivity : AppCompatActivity() {
                             val startOfDay = getStartOfDay(System.currentTimeMillis())
                             val endOfDay = getEndOfDay(System.currentTimeMillis())
                             loadChartData(selectedType, startOfDay, endOfDay)
-
                             dialog.dismiss() // Close the dialog
                         }
                         .addOnFailureListener { e ->
