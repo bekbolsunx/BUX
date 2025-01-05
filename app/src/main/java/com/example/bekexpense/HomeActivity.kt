@@ -448,6 +448,10 @@ class HomeActivity : AppCompatActivity() {
                         .addOnSuccessListener {
                             Toast.makeText(this@HomeActivity, "Transaction added!", Toast.LENGTH_SHORT).show()
                             calculateTotalBalance() // Update the total balance dynamically
+                            // Reload the chart data to reflect the new transaction
+                            val startOfDay = getStartOfDay(System.currentTimeMillis())
+                            val endOfDay = getEndOfDay(System.currentTimeMillis())
+                            loadChartData(selectedType, startOfDay, endOfDay)
                             dialog.dismiss() // Close the dialog
                         }
                         .addOnFailureListener { e ->
